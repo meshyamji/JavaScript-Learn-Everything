@@ -41,4 +41,3 @@
 
 // typeof -> is used with primmitive values
 // instanceof -> is used with reference values
-
