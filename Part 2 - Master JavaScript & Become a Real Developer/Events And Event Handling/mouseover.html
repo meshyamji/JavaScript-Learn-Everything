@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+
+        /* never do this to a body, do it on the main div */
+        body{
+            position: relative;
+            overflow: hidden;
+        }
+        /* #abcd{
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background-color: red;
+        } */
+        
+        #main{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+        #nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100px;
+            background-color: #444;
+        }
+        a{
+            color: white !important;
+        }
+        button{
+            padding: 12px 22px;
+            background-color: burlywood;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 20px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="abcd"></div>
+    <form action="">
+        <input type="email">
+        <input type="password">
+        <input type="submit">
+    </form> -->
+    <div id="main">
+        <div id="nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <button>Click and Follow</button>
+        </div>
+    </div>
+    <script src="mouseover.js"></script>
+</body>
+</html>

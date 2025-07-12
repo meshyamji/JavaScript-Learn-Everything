@@ -15,27 +15,68 @@
             width: 100%;
             height: 100%;
         }
+
         input{
             display: block;
         }
+
         #main{
             height: 100%;
             width: 100%;
-            padding: 25px;
+            padding: 30px;
             background-color: black;
+        }
+
+        .card{
+            max-width: 300px;        
+            margin-top: 40px;
+            border-radius: 10px;
+            display: inline-block;
+            padding: 20px;
+            color: white;
+            border: 2px solid gray;
+            
+        }
+        .profile{
+            width: 50px;
+            height: 50px;
+            background-color: blanchedalmond;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .profile img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .card h5{
+            margin-top: 3px;
+        }
+        .card p{
+            font-size: 12px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <div id="main">
         <form action="">
-            <input type="text" placeholder="name">
-            <input type="text" placeholder="age">
-            <input type="text" placeholder="email">
             <input type="text" placeholder="profile pic">
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="occupation">
+            <input type="text" placeholder="info">
             <input type="submit">
         </form>
+    <!-- <div class="card">
+        <div class="profile">
+            <img src="https://images.unsplash.com/photo-1751810906354-5e364657d468?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        <h3>Shyam JI Gupta</h3>
+        <h5>Coder</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti cum illo ab, magnam consequuntur, eaque in non reprehenderit quo magni nostrum repellendus quisquam accusantium minus commodi, quasi impedit perspiciatis!</p>
+    </div> -->
     </div>
-    <script src="script2.js"></script>
+    <script src="submitform.js"></script>
 </body>
 </html>
